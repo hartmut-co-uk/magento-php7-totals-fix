@@ -11,5 +11,33 @@
                 <class>HartmutLtd_PHP7Totalsfix_Helper</class>
             </php7grandtotalbugfix>
         </helpers>
+        <sales>
+            <quote>
+                <totals>
+                    <nominal>
+                        <class>sales/quote_address_total_nominal</class>
+                        <before>subtotal</before>
+                    </nominal>
+                    <subtotal>
+                        <class>sales/quote_address_total_subtotal</class>
+                        <after>nominal</after>
+                        <before>grand_total</before>
+                    </subtotal>
+                    <shipping>
+                        <class>sales/quote_address_total_shipping</class>
+                        <after>subtotal,freeshipping,tax_subtotal,msrp</after>
+                        <before>grand_total</before>
+                    </shipping>
+                    <grand_total>
+                        <class>sales/quote_address_total_grand</class>
+                        <after>subtotal</after>
+                    </grand_total>
+                    <msrp>
+                        <class>sales/quote_address_total_msrp</class>
+                        <before>grand_total</before>
+                    </msrp>
+                </totals>
+            </quote>
+        </sales>
     </global>
 </config> 
