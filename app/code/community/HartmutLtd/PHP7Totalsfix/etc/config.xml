@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <HartmutLtd_PHP7Totalsfix>
+            <version>1.0.0</version>
+        </HartmutLtd_PHP7Totalsfix>
+    </modules>
+    <global>
+        <helpers>
+            <php7grandtotalbugfix>
+                <class>HartmutLtd_PHP7Totalsfix_Helper</class>
+            </php7grandtotalbugfix>
+        </helpers>
+    </global>
+</config> 
