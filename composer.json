@@ -1,0 +1,28 @@
+{
+  "name": "hartmut-co-uk/magento-php7-totals-fix",
+  "license": "GPL-3.0",
+  "type": "magento-module",
+  "description": "magento-php7-totals-fix",
+  "homepage": "https://github.com/hartmut-co-uk/magento-php7-totals-fix",
+  "require": {
+    "php": "^7.0",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "hartmut-co-uk",
+      "email": "{{MODUL-CREATOR-EMAIL}}",
+      "role": "Author of this module"
+    },
+    {
+      "name": "Kevin Krieger",
+      "email": "kk@kkrieger.de",
+      "homepage": "https://kkrieger.de",
+      "role": "Contributor"
+    }
+  ],
+  "extra": {
+    "magento-root-dir": "./",
+    "magento-deploystrategy": "copy"
+  }
+}
