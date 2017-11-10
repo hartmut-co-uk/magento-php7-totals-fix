@@ -18,5 +18,30 @@ http://stackoverflow.com/questions/9194281/sort-algorithm-magento-checkout-total
 ## Install
 Install manually or via [modman](https://github.com/colinmollenhour/modman)...
 
-*Note: Tested and working with Magento CE 1.9.2.1* 
+Install with composer:
+
+`composer config repositories.foo vcs https://github.com/foo/bar`  or
+
+
+```
+"repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/hartmut-co-uk/magento-php7-totals-fix"
+    }
+]
+
+```
+
+
+
+
+Add to your repositories:
+
+Install: `composer require hartmut-co-uk/magento-php7-totals-fix:dev-master`
+
+## Noteconfig repositories.foo vcs https://github.com/foo/bar 
+
+* Tested and working with Magento CE 1.9.2.1 
+* Tested and working with Magento CE 1.9.3.6 (by @kkrieger85)
 
