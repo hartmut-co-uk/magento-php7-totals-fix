@@ -1,4 +1,20 @@
+# Deprecation notice
+
+**Magento released official PHP 7.2 patches for Magento 1 (September 2018), 
+which means this extension is not needed anymore!!**
+
+**Remove this module from your M1 store and use official patches.**
+
+More info:  
+https://inchoo.net/magento/magento-1-official-php-7-2-patches/
+
+Patches:  
+https://magento.com/tech-resources/download#download2240
+
+___________________________________________________________________________
+
 # magento-php7-totals-fix
+
 ## Abstract
 Here's a magento module to solve magento issues with totals calculation for php7.
 The issues I've experienced in particular were that taxes have been added twice to the grand total for [pay with amazon](https://www.magentocommerce.com/magento-connect/login-and-pay-with-amazon-advanced-payment-apis-for-europe.html) module on the amazonpayments checkout page.
